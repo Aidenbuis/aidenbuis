@@ -56,7 +56,7 @@ const Header = () => {
   return (
     <div className="relative px-4 pb-20 sm:px-6 lg:pb-28 lg:px-8">
       <div className="fixed top-0 left-0 z-50 w-full px-4 pb-20 sm:px-6 lg:pb-28 lg:px-8">
-        <div className="flex justify-start mx-auto max-w-7xl">
+        <div className="flex justify-center mx-auto max-w-7xl">
           <div className="block" />
           <img
             className="relative top-0 left-0 w-16 h-16 mt-6 bg-white border-4 border-white rounded-full shadow-lg"
@@ -66,44 +66,10 @@ const Header = () => {
       </div>
       <div className="relative mx-auto max-w-7xl">
         <div className="relative z-10 w-full pb-8 sm:pb-16 md:pb-10">
-          <nav
-            className="relative flex items-center justify-end w-full text-gray-900 sm:h-10"
-            style={{
-              height: "75px",
-            }}
-          >
-            <div className="hidden md:block">
-              <a
-                href="#"
-                className="font-medium transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
-              >
-                Learn
-              </a>
-              <a
-                href="#"
-                className="ml-10 font-medium transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
-              >
-                Hire
-              </a>
-              <a
-                href="#"
-                className="ml-10 font-medium transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
-              >
-                Courses
-              </a>
-            </div>
-          </nav>
-
           <div className="mx-auto mt-24 sm:px-6 lg:px-8 xl:mt-36">
             <div className="flex justify-center">
-              <h2 className="inline-block text-3xl font-extrabold leading-10 tracking-normal text-left text-gray-900 transition-all sm:text-4xl md:text-5xl">
-                Hi, I'm <span className="text-orange-500">Aiden</span>. <br /> I
-                help front-end developers level up
-                <br className="hidden lg:block" /> their{" "}
-                <span className="text-orange-500">knowledge</span> and{" "}
-                <span className="text-orange-500">skills</span>
-                <br className="hidden lg:block" /> through deep understanding
-                <span className="text-orange-500">.</span>
+              <h2 className="inline-block mt-0 text-3xl font-extrabold leading-10 tracking-normal text-left text-gray-900 transition-all sm:mt-24 sm:text-4xl md:text-5xl">
+                <span className="text-orange-500">Hello@aidenbuis.com</span>
               </h2>
             </div>
           </div>
@@ -233,14 +199,11 @@ const IndexPage = () => {
   const { title, siteUrl } = useSiteMetadata()
   return (
     <>
-      <SEO title="Home" />
       <Header />
-      <BlogSection />
-      <CTA />
-      <Footer />
     </>
   )
 }
+
 const Footer = () => {
   return (
     <div className="bg-gray-900">
