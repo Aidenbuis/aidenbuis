@@ -1,0 +1,19 @@
+@import url("https://rsms.me/inter/inter.css");
+
+body {
+  animation: fadeInAnimation cubic-bezier(0.4, 0, 1, 1) 1.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
