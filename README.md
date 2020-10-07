@@ -1,2 +1,2 @@
 
-## 🚀 Making the web go <brrrrr>
+## 🚀 Making the web go < brrrrr >
